@@ -1,0 +1,41 @@
+
+---
+
+# 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp_*.mp4
+
+# Database files (optional - you can keep or ignore)
+faiss_index.index
+metadata.json
+claims.json
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
